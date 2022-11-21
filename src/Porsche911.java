@@ -5,14 +5,14 @@ public class Porsche911 extends CarDecorator{
     }
     @Override
     public int getSpeed() {
-        return this.car.getSpeed()+100;
+        return 300;
     }
     @Override
     public int getBaggageWeight() {
-        return this.car.getBaggageWeight()-50;
+        return 30;
     }
     @Override
     public int getSeat() {
-        return this.car.getSeat()-2;
+        return 2;
     }
 }
